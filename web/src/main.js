@@ -1,5 +1,12 @@
-import { createApp } from 'vue'
+import Vue from 'vue'
 import App from './App.vue'
-import "@mdi/font/css/materialdesignicons.css";
+import router from './router/router'
+import vuetify from './plugins/vuetify'
 
-createApp(App).mount('#app')
+Vue.config.productionTip = false
+
+new Vue({
+  vuetify,
+  router,
+  render: h => h(App)
+}).$mount('#app')
