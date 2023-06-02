@@ -28,7 +28,7 @@
 
               
               <p class="lead fw-light mb-4">Es una IA desarrollada por OpenAI y GitHub para autocompletado de código, utilizando los repositorios de GitHub como base.</p>
-              <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://github.com/features/copilot">Más información</button>
+              <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" @click="copilot()">Más información</button>
             </div>
               
       </div>
@@ -46,7 +46,7 @@
                         </span>
                         <h4 class="my-3">Recopilación y análisis de las prácticas</h4>
                         <p class="text-muted">Se analizaron prácticas para cada categoría y realizaron pruebas de concepto para ver cómo GitHub Copilot abordaba dicha práctica.</p>
-                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://github.com/features/copilot">Ver documentación</button>
+                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://github.com/features/copilot" target="_blank">Ver documentación</button>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -64,7 +64,7 @@
                         </span>
                         <h4 class="my-3">Implementación del modelo con una aplicación web</h4>
                         <p class="text-muted">Se puso en práctica toda la información recopilada y el modelo para usar GitHub Copilot de forma correcta y crear una aplicación web que cumpla con buenas prácticas de desarrollo</p>
-                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://perucits.netlify.app/">Ver aplicación</button>
+                        <button  type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" onClick="https://perucits.netlify.app/" target="_blank">Ver aplicación</button>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/Cdtg3C9mSDE"
+        href="https://youtu.be/x7ZRFSAZaIQ"
         target="_blank"
       >
  
@@ -144,7 +144,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/3FYAHvfUgSk"
+        href="https://youtu.be/qhpLlW7lhtQ"
         target="_blank"
       >
  
@@ -405,10 +405,15 @@
 
 <script>
   export default {
-    data () {
-      return {
-      }
-    },
+     name: 'SearchPlaces',
+  data: () => ({
+  }),
+    methods: {
+      copilot(){
+        console.log("copilot");
+        window.open('https://github.com/features/copilot', '_blank');
+      },
+    }
   }
 </script>
 
