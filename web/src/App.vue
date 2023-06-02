@@ -2,7 +2,7 @@
   <v-app >
     <div id="main">
       
-
+      <NavBar />
       <v-main >
         <router-view />
       </v-main>
@@ -11,10 +11,12 @@
 </template>
 
 <script>
+import NavBar from "./components/NavBar";
 export default {
   name: "App",
 
   components: {
+    NavBar
   },
 
   data: () => ({
