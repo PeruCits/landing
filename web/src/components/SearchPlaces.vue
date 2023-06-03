@@ -448,7 +448,7 @@
       },
       obj3(){
         console.log("copilot");
-        window.open('https://perucits.netlify.app/search', '_blank');
+        window.open('https://perucits.netlify.app', '_blank');
       },
     }
   }
