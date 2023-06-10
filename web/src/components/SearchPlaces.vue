@@ -71,7 +71,7 @@
                         </span>
                         <h4 class="my-3">Recopilación y análisis de las prácticas</h4>
                         <p class="text-muted">Se analizaron prácticas para cada categoría y realizaron pruebas de concepto para ver cómo GitHub Copilot abordaba dicha práctica.</p>
-                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://github.com/features/copilot" target="_blank">Ver documentación</button>
+                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%"  @click="obj1()">Ver documentación</button>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -80,7 +80,7 @@
                           </span>
                         <h4 class="my-3">Diseño del modelo</h4>
                         <p class="text-muted">Se creó un modelo visual que sirva de apoyo para rápidamente saber qué práctica soporta GitHub Copilot y tener presente en qué porcentaje la herramienta aborda dicha práctica.</p>
-                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%" href="https://github.com/features/copilot">Ver modelo</button>
+                        <button type="button" class="btn btn-outline-dark" style="font-size:20px;font-weight:bold; padding:10px;margin-top:1%"  @click="obj2()">Ver modelo</button>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -200,14 +200,14 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/IrNKmJydUUI"
         target="_blank"
       >
  
           <img width="40%" height="100%" src="../../src/components/play (2).png" />
           <div style="display:flex; flex-direction:column;justify-content:center; padding:15px">
           <span style="color:grey; margin-bottom:10px ">Prácticas de frontend</span>
-          <span style="color:black; font-size:25px; font-weight:bold; margin-bottom:10px ">1. Evitar globales</span>
+          <span style="color:black; font-size:25px; font-weight:bold; margin-bottom:10px ">1. Evitar los globales</span>
           <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">100%</div>
           <div class="progress progress-sm mr-2">
             <div class=""  role="progressbar" style="width: 100%; background-color:cyan" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -220,7 +220,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/hzjKtvl-b4o"
         target="_blank"
       >
  
@@ -240,7 +240,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/gQXzrvx0L3E"
         target="_blank"
       >
  
@@ -271,7 +271,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/fyulSNx1TXI"
         target="_blank"
       >
  
@@ -291,7 +291,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/LITre3chPxg"
         target="_blank"
       >
  
@@ -311,7 +311,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/tq1dQPOxJEo"
         target="_blank"
       >
  
@@ -345,7 +345,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://youtu.be/f9M85WAKKCU"
         target="_blank"
       >
  
@@ -440,11 +440,11 @@
       },
       obj1(){
         console.log("copilot");
-        window.open('https://github.com/features/copilot', '_blank');
+        window.open('https://1drv.ms/w/s!AgdrHao5xkimhpcwEYXCtT-2e37Ksg?e=jUuCej', '_blank');
       },
       obj2(){
         console.log("copilot");
-        window.open('https://github.com/features/copilot', '_blank');
+        window.open('https://ibb.co/2sNhbTx', '_blank');
       },
       obj3(){
         console.log("copilot");
