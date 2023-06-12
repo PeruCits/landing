@@ -365,7 +365,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://www.youtube.com/watch?v=1wRQAqvKCjc"
         target="_blank"
       >
  
@@ -405,7 +405,7 @@
         height="15rem"
         class="mx-auto"
         style="display:flex"
-        href="https://youtu.be/xt3rY2RQh_0"
+        href="https://www.youtube.com/watch?v=NTatRsz4sf4"
         target="_blank"
       >
  
